@@ -8,4 +8,4 @@ Project Authors
 
 ## Special thanks to : 
 
-* Juan Francisco Chávez Gonzálex - Tech leader - Spain
+* Juan Francisco Chávez González - Tech leader - Spain
