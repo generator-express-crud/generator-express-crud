@@ -1,7 +1,8 @@
 import I<%= modelName %>Service from "@interfaces/service/I<%= modelName %>Service";
 import I<%= modelName %> from "@models/entities/<%= modelName %>";
+import express from "express";
 import { <%= modelName %>ServiceImpl } from "@service/<%= modelName %>ServiceImpl";
-import { Controller, Get, Route, Query, Delete, Put, Body, Post, Response, SuccessResponse, Tags } from 'tsoa';
+import { Controller, Get, Route, Query, Delete, Put, Body, Post, Response, SuccessResponse, Tags, Request } from 'tsoa';
 import { ProvideSingleton, inject } from '@ioc/ioc';
 import ServiceError from "@common/exception/ServiceError";
 
@@ -49,8 +50,11 @@ export class <%= modelName %>Controller extends Controller {
   @Response<{ message: string }>(400, "Bad request")
   @SuccessResponse("200", "Request Success")
   @Get('/getById')
-  public async getById(@Query() id: string): Promise<I<%= modelName %>>  {
+  public async getById(@Query() id?: string): Promise<I<%= modelName %>>  {
     //Do some business logic...
+    if (!id){
+      return Promise.reject("Required 'id' not provided or empty. Check the URL.");
+    }
     try {
 			return await this.<%= modelVar %>Service.getById(id);
 		} catch (err) {
@@ -69,10 +73,17 @@ export class <%= modelName %>Controller extends Controller {
  @Response<{ message: string }>(400, "Bad request")
  @SuccessResponse("200", "Request Success")
  @Get("/get")
- public async get(@Query() page: number,@Query() size:number): Promise<I<%= modelName %>[]> {
+ public async get(@Request() request: express.Request, @Query() page: number = 0,@Query() size:number = 10): Promise<I<%= modelName %>[]> {
    //Do some business logic...
+   let filters = new Array<[string, string]>();
+   Object.keys(request.query).forEach((key) => {
+    let value = request.query[key];
+    if (key !== 'page' && key !== 'size' && typeof value === 'string' ){
+      filters.push([key,value]);
+    }
+   })
    try {
-     return await this.<%= modelVar %>Service.get(page,size);
+     return await this.<%= modelVar %>Service.get(page,size,filters);
    } catch (err) {
      if (err instanceof ServiceError) {
        //Do the business logic error you want...
@@ -111,7 +122,10 @@ export class <%= modelName %>Controller extends Controller {
   @Response<{ message: string }>(400, "Bad request")
   @SuccessResponse("200", "Success")
   @Delete('/deleteById')
-  public async deleteById(@Query() id: string): Promise<I<%= modelName %>>  {
+  public async deleteById(@Query() id?: string): Promise<I<%= modelName %>>  {
+    if (!id){
+      return Promise.reject("Required 'id' not provided or empty. Check the URL.");
+    }
     try {
 			return await this.<%= modelVar %>Service.deleteById(id);
 		} catch (err) {
