@@ -81,3 +81,108 @@
   "repository": "https://github.com/generator-express-crud/generator-express-crud.git",
   "license": "GPL-3.0"
 }
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@zakwarlord7 
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+fabianonunes
+/
+dev.null
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+dev.null / 1.1.0
+ 1.1.0
+sha256:d90ad8bebda31c53dd495894ac7309dde532d25aad89e4ddc2d7d67db165e6a8
+ Install from the command line
+Learn more about packages
+$ docker pull ghcr.io/fabianonunes/dev.null:1.1.0
+Use as base image in Dockerfile:
+FROM ghcr.io/fabianonunes/dev.null:1.1.0
+About this version
+Documentation
+No description available
+This package version was published on Jun 2.
+
+To provide a description, add the following line to your Dockerfile:
+
+LABEL org.opencontainers.image.description DESCRIPTION
+Manifest
+{
+  "digest": "sha256:d90ad8bebda31c53dd495894ac7309dde532d25aad89e4ddc2d7d67db165e6a8",
+  "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+  "size": 528,
+  "config": {
+    "digest": "sha256:c61d79eee386008317bc256463e87dde7401b43ebb4a90a967857a77d8a23fe4",
+    "mediaType": "application/vnd.docker.container.image.v1+json",
+    "size": 1099
+  },
+  "layers": [
+    {
+      "digest": "sha256:6946123c94bc617ca819169cac841f13a4c8823da1b8fc208d284bda911ea2f9",
+      "mediaType": "application/x-gzip",
+      "size": 5455755
+    },
+    {
+      "digest": "sha256:c61d79eee386008317bc256463e87dde7401b43ebb4a90a967857a77d8a23fe4",
+      "mediaType": "text/plain; charset=utf-8",
+      "size": 1099
+    }
+  ],
+  "labels": {
+    "org.opencontainers.image.url": "https://github.com/fabianonunes/dev.null",
+    "org.opencontainers.image.source": "https://github.com/fabianonunes/dev.null",
+    "org.opencontainers.image.title": "dev.null",
+    "org.opencontainers.image.revision": "1cd3081ec7e6a2de20ffd9fe6ba805ab551c4dda",
+    "org.opencontainers.image.created": "2022-06-03T00:16:56.428Z",
+    "org.opencontainers.image.version": "1.1.0",
+    "org.opencontainers.image.description": "",
+    "org.opencontainers.image.licenses": ""
+  }
+}
+Details
+dev.null
+@fabianonunes
+fabianonunes
+fabianonunes/dev.null
+7 months ago
+Download activity
+Total downloads
+25
+Last 30 days
+1
+Last week
+0
+Today
+0
+Other tags on this version
+latest
+1.1.0
+View all versions
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+dev.null versions · fabianonunes 
