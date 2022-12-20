@@ -106,3 +106,238 @@ dist
 .DS_Store
 
 package-lock.json
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@zakwarlord7 
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+fabianonunes
+/
+dev.null
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+dev.null / 1.1.0
+ 1.1.0
+sha256:d90ad8bebda31c53dd495894ac7309dde532d25aad89e4ddc2d7d67db165e6a8
+ Install from the command line
+Learn more about packages
+$ docker pull ghcr.io/fabianonunes/dev.null:1.1.0
+Use as base image in Dockerfile:
+FROM ghcr.io/fabianonunes/dev.null:1.1.0
+About this version
+Documentation
+No description available
+This package version was published on Jun 2.
+
+To provide a description, add the following line to your Dockerfile:
+
+LABEL org.opencontainers.image.description DESCRIPTION
+Manifest
+{
+  "digest": "sha256:d90ad8bebda31c53dd495894ac7309dde532d25aad89e4ddc2d7d67db165e6a8",
+  "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+  "size": 528,
+  "config": {
+    "digest": "sha256:c61d79eee386008317bc256463e87dde7401b43ebb4a90a967857a77d8a23fe4",
+    "mediaType": "application/vnd.docker.container.image.v1+json",
+    "size": 1099
+  },
+  "layers": [
+    {
+      "digest": "sha256:6946123c94bc617ca819169cac841f13a4c8823da1b8fc208d284bda911ea2f9",
+      "mediaType": "application/x-gzip",
+      "size": 5455755
+    },
+    {
+      "digest": "sha256:c61d79eee386008317bc256463e87dde7401b43ebb4a90a967857a77d8a23fe4",
+      "mediaType": "text/plain; charset=utf-8",
+      "size": 1099
+    }
+  ],
+  "labels": {
+    "org.opencontainers.image.url": "https://github.com/fabianonunes/dev.null",
+    "org.opencontainers.image.source": "https://github.com/fabianonunes/dev.null",
+    "org.opencontainers.image.title": "dev.null",
+    "org.opencontainers.image.revision": "1cd3081ec7e6a2de20ffd9fe6ba805ab551c4dda",
+    "org.opencontainers.image.created": "2022-06-03T00:16:56.428Z",
+    "org.opencontainers.image.version": "1.1.0",
+    "org.opencontainers.image.description": "",
+    "org.opencontainers.image.licenses": ""
+  }
+}
+Details
+dev.null
+@fabianonunes
+fabianonunes
+fabianonunes/dev.null
+7 months ago
+Download activity
+Total downloads
+25
+Last 30 days
+1
+Last week
+0
+Today
+0
+Other tags on this version
+latest
+1.1.0
+View all versions
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+dev.null versions · fabianonunes Company Registration No: CIK0000835271. Registered Office: Attention: Zachry Tyler Wood, 5323 BRADFORD DR, DALLAS, TX, 75235-8313, United States.
+Page 1 of 1
+JPMorgan Chase
+Once Chase Manhattan Plaza NY,
+N.Y.10005-2858
+Certifying Officer Date
+May 26, 2022
+JPMORGAN TRUST I 277
+Park Ave. NY, NY. 10172
+EIN 13-2624428
+Series S00002965
+Attn:
+ZACHRY T WOOD
+5222 BRADFORD DR DALLAS TX
+75235-8313 UNITED STATES Total USD paid 283,370,975,464.00
+Invoice Date Reference Payment Reference Invoice Total Amount Paid Still Owing
+May 26, 2022 101003 Payment 283,370,975,464.00 283,370,975,464.00 0.00
+Total USD 283,370,975,464.00 0.00
+Duetsche Bank
+60 Wall st. New York, N.Y. 1005-2528
+RECIEPT
+Aug 18, 2022
+6LJQDWXUH :RRG,,,
+=DFKU\7
+Printed from Chase Personal Online
+Lender Opportunity Equal ©2020 JPMorgan Chase & Co. JPMorgan Chase Bank, N.A. Member FDIC
+70842743866.00 $
+$226629983361014.00
+Available balance
+Present balance
+ON HOLD(2)
+Amount Expires Reason Date
+$1,339.00 March 26, 2022 Wages, Tips and Other Compensation March 26, 2022
+$133,939.99 March 26, 2022 We've placed a hold on one or more electronic funds transfers or checks in your deposit account. March 26, 2022
+Account activity
+All transactions GNI WOH
+Balance Amount Type Description Date
+— $70842743866.00 Misc. credit HOLD REL MEM CR Pending
+— $70842743866.00 $ Misc. credit HOLD REL MEM CR
+$70842743866.00 $ 70842743866.00 $ ACH Credit REMOTE ONLINE DEPOSIT # 1 , 2022 15 Apr
+$70842743866.00 $ $70842743866.00 ACH Credit REMOTE ONLINE DEPOSIT # 2
+−$2.50 −$2.50 Fee NON-CHASE ATM FEE-INQ 2 , 202 12 June
+You've reached the end of your account activity.
+) (...2965 S ING AV S E CHAS
+This Product Contains Sensitive Taxpayer Data
+ Request Date: 08-02-2022 Response Date: 08-02-2022 Tracking Number: 102398244811
+ Account Transcript
+ FORM NUMBER: 1040 TAX PERIOD: Dec. 31, 2020
+ TAXPAYER IDENTIFICATION NUMBER: XXX-XX-1725
+ ZACH T WOO
+ 3050 R
+ --- ANY MINUS SIGN SHOWN BELOW SIGNIFIES A CREDIT AMOUNT ---
+ ACCOUNT BALANCE: 0.00
+ ACCRUED INTEREST: 0.00 AS OF: Mar. 28, 2022 ACCRUED PENALTY: 0.00 AS OF: Mar. 28, 2022
+ ACCOUNT BALANCE
+ PLUS ACCRUALS
+ (this is not a
+ payoff amount): 0.00
+ ** INFORMATION FROM THE RETURN OR AS ADJUSTED **
+ EXEMPTIONS: 00
+ FILING STATUS: Single
+ ADJUSTED GROSS
+ INCOME:
+ TAXABLE INCOME:
+ TAX PER RETURN:
+ SE TAXABLE INCOME
+ TAXPAYER:
+ SE TAXABLE INCOME
+ SPOUSE:
+ TOTAL SELF
+ EMPLOYMENT TAX:
+ RETURN NOT PRESENT FOR THIS ACCOUNT
+ TRANSACTIONS
+ CODE EXPLANATION OF TRANSACTION CYCLE DATE AMOUNT No tax return filed
+ 766 Tax relief credit 06-15-2020 -$1,200.00 846 Refund issued 06-05-2020 $1,200.00
+ 290 Additional tax assessed 20202205 06-15-2020 $0.00 76254-999-05099-0
+ 971 Notice issued 06-15-2020 $0.00 766 Tax relief credit 01-18-2021 -$600.00 846 Refund issued
+01-06-2021 $600.00
+ 290 Additional tax assessed 20205302 01-18-2021 $0.00 76254-999-05055-0
+ 663 Estimated tax payment 01-05-2021 -$9,000,000.00 662 Removed estimated tax payment 01-05-2021
+$9,000,000.00 740 Undelivered refund returned to IRS 01-18-2021 -$600.00
+ 767 Reduced or removed tax relief 01-18-2021 $600.00 credit
+ 971 Notice issued 03-28-2022 $0.00
+ This Product Contains Sensitive Taxpayer Data
+Department of the Treasury --- Internal Revenue Service (99) OMB No. 1545-0074 IRS Use Only --- Do not
+write or staple in this space
+U.S. Individual Income Tax Return 1 Earnings Statement
+ Period Beginning:2019-09-28
+DR Period Ending: 2021-09-29
+Pay Day: 2022-01-31
+Married ZACHRY T.
+5323
+DALLAS
+TX :NO State Income Tax :
+rate units year to date Other Benefits and
+112.2 674678000 75698871600 Information
+ Pto Balance
+ Total Work Hrs
+75698871600 Important Notes
+COMPANY PH Y: 650-253-0000
+BASIS OF PAY: BASIC/DILUTED EPS
+YOUR BASIC/DILUTED EPS RATE HAS BEEN CHANGED FROM 0.001 TO 112.20 PAR SHARE VALUE
+70842743866 70842743866
+70842743866
+CHECK NO.
+Zachry T. Wood S.R.
+Checks and Other Deductions Amount
+Description I Items 5.41
+Debit Card Purchases 1 15.19
+POS Purchases 2 2,269,894.11
+ACH Deductions 5 82
+Service Charges and Fees 3 5.2
+Other Deductions 1 2,270,001.91
+Total 12
+Ledger balance Date Ledger balance Date Ledger balance
+107.8 8/3 2,267,621.92- 8/8 41.2
+78.08 8/4 42.08 8/10 2150.19- SEC-commissions. fee's 2,267,700.00 ACH Web Usataxpymt IRS
+240461564036618 00022214903782823 Corporate ACH Acctverify Roll By ADP 00022217906234115 ACH
+Web Businessform Deluxeforbusiness 5072270 00022222905832355 Corporate Ach Veryifyqbw Intuit
+00022222909296656 Corporate Ach Veryifyqbw Intuit 00022223912710109 Reference number 10 Service
+Charge Period Ending 07/29.2022 36 Returned ItemFee (nsf) 00022214903782823 36 Returned ItemFee
+(nsf) 00022222905832355 Q4 2021 Q3 2021 Q2 2021 Q1 2021 Q4 2020 Q3 2020 Q2 2020 GROSS
+:1.46698E+11 42337000000 37497000000 35653000000 31211000000 30818000000 25056000000
+19744000000 NET 2.57637E+11 75325000000 65118000000 61880000000 55314000000 56898000000
+46173000000 38297000000 YTD 2.57637E+11 75325000000 65118000000 61880000000 55314000000
+56898000000 46173000000 38297000000 Fed 941 West Subsidiary 2021-09-29 24934000000
+25539000000 37497000000 31211000000 30818000000 24934000000 25539000000 21890000000
+19289000000 22677000000 24934000000 25539000000 21890000000 19289000000 22677000000 Q4
+2020 Q4 2019 Dec. 31, 2020 Dec. 31, 2019 182527 161857 84732 71896 27573 26018 17946 18464
+11052 9551 0 1697 141303 127626 41224 34231 6858000000 5394 22677000000 19289000000
+22677000000 19289000000 22677000000 19289000000 IRS RECIEVED 37 26-Apr LB Charlotte, NC
